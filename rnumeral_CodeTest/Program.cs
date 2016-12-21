@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace rnumeral_CodeTest
 {
-    class Program
+    public class Program
     {
         //simple dictionary<char, int> to store values of different Roman Numerals
         //Links Roman Numeral character to its associated value.
@@ -20,14 +20,32 @@ namespace rnumeral_CodeTest
         //Calculated correct integer value and returns it.
         public static int romanNum_toInteger(string romanString)
         {
-            int intValue = 0, prevValue = 0, nextValue = 0;
+            int intValue = 0, prevValue = 0, nextValue = 0, curValue = 0;            
 
+            //loop through each character of romanString
             for (int i = 0; i < romanString.Length; i++)
             {
-                int curValue = romanDict[romanString[i]];
+                //verify that the key exists in the dict
+                if (romanDict.ContainsKey(romanString[i]))
+                {
+                    curValue = romanDict[romanString[i]];
+                } else
+                {
+                    Console.WriteLine("Incorrect Input");
+                    return -1;
+                }
+                
                 if ((i + 1) <= (romanString.Length - 1))
                 {
-                    nextValue = romanDict[romanString[i + 1]];
+                    if(romanDict.ContainsKey(romanString[i + 1]))
+                    {
+                        nextValue = romanDict[romanString[i + 1]];
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrect Input");
+                        return -1;
+                    }                    
                 } else
                 {
                     nextValue = 0;
@@ -41,7 +59,7 @@ namespace rnumeral_CodeTest
                 {
                     intValue += curValue;
                 }
-                prevValue = romanDict[romanString[i]];   
+                prevValue = curValue;   
             }
             return intValue;
         }
@@ -65,7 +83,9 @@ namespace rnumeral_CodeTest
                 }
 
                 integerValue = romanNum_toInteger(readInString);
-                Console.WriteLine(integerValue);
+
+                if (integerValue > -1)
+                    Console.WriteLine(integerValue);                
             }
         }
     }

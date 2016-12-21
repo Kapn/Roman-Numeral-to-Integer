@@ -1,0 +1,8 @@
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\bin\Debug\romanToInt_Test.dll
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\bin\Debug\romanToInt_Test.pdb
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\bin\Debug\rnumeral_CodeTest.exe
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\bin\Debug\rnumeral_CodeTest.pdb
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\obj\Debug\romanToInt_Test.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\obj\Debug\romanToInt_Test.dll
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\romanToInt_Test\obj\Debug\romanToInt_Test.pdb

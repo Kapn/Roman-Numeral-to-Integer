@@ -4,3 +4,9 @@ c:\users\kevin pannell\documents\visual studio 2015\Projects\rnumeral_CodeTest\r
 c:\users\kevin pannell\documents\visual studio 2015\Projects\rnumeral_CodeTest\rnumeral_CodeTest\obj\Debug\rnumeral_CodeTest.csprojResolveAssemblyReference.cache
 c:\users\kevin pannell\documents\visual studio 2015\Projects\rnumeral_CodeTest\rnumeral_CodeTest\obj\Debug\rnumeral_CodeTest.exe
 c:\users\kevin pannell\documents\visual studio 2015\Projects\rnumeral_CodeTest\rnumeral_CodeTest\obj\Debug\rnumeral_CodeTest.pdb
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\rnumeral_CodeTest\bin\Debug\rnumeral_CodeTest.exe.config
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\rnumeral_CodeTest\obj\Debug\rnumeral_CodeTest.exe
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\rnumeral_CodeTest\obj\Debug\rnumeral_CodeTest.pdb
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\rnumeral_CodeTest\bin\Debug\rnumeral_CodeTest.exe
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\rnumeral_CodeTest\bin\Debug\rnumeral_CodeTest.pdb
+C:\Users\Kevin\Desktop\Roman-Numeral-to-Integer\rnumeral_CodeTest\obj\Debug\rnumeral_CodeTest.csprojResolveAssemblyReference.cache
